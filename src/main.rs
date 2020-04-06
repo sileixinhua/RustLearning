@@ -1,6 +1,9 @@
-fn main() {
-    println!("Hello, world!");
-    //此处 println! 是一个Rust 宏（macro），不是一个普通函数
+include!("guess_what_game.rs");
 
-    
+fn main() {
+
+    //猜猜看游戏，Rust 基础练习
+    guess_what_game();
+
+
 }
