@@ -1,4 +1,5 @@
 use std::io;
+use rand::Rng;
 
 fn guess_what_game() {
     println!("Hello, world! Start guess what game!");
@@ -15,4 +16,7 @@ fn guess_what_game() {
 
     println!("You guessed is {}", guess);
 
+    //生成随机数
+    let secret_number = rand::thread_rng().gen_range(1, 101);
+    
 }
