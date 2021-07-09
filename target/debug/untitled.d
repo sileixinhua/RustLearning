@@ -1,1 +1,1 @@
-/Users/silei/Documents/Code/RustLearning/target/debug/untitled.dSYM: /Users/silei/Documents/Code/RustLearning/src/guess_what_game.rs /Users/silei/Documents/Code/RustLearning/src/main.rs
+C:\Code\RustLearning\target\debug\untitled.exe: C:\Code\RustLearning\src\guess_what_game.rs C:\Code\RustLearning\src\main.rs

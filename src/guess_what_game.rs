@@ -12,6 +12,7 @@ fn guess_what_game() {
 
     //& 的意思是引用，不就是指针？？？
     //read_line返回的是一个Result的枚举类型，成员为Ok Err
+    //所以如果这里不加 .expect 则提示 warning 有可能会出错
     io::stdin().read_line(&mut guess).expect("Failed to read line");
 
     println!("You guessed is {}", guess);
